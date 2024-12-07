@@ -17,7 +17,7 @@ class Document:
   def load_document(self, index):
 
     data_set=pd.read_csv(self.dataset_path, sep=";")
-    col_text=data_set['hotel_rule']
+    col_text=data_set['Description']
 
     self.document_text = col_text[index]
 
