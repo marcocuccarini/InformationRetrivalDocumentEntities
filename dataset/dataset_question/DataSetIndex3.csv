@@ -1,0 +1,16 @@
+,question,answer,question_index,answer_index,document_index
+0,Who designed Piazzale Michelangelo? ,"Piazzale Michelangelo (Michelangelo Square) is a square with a panoramic view of Florence, Italy, located in the Santo Spirito district. It was designed by architect Giuseppe Poggi and constructed in 1869 during the redevelopment of Oltrarno, the left (south) bank of the Arno River. This period of urban renewal, known as the Risanamento (Renovation), occurred when Florence was the capital of Italy.",O,0,3
+1,"
+In what year was Piazzale Michelangelo constructed?","Piazzale Michelangelo (Michelangelo Square) is a square with a panoramic view of Florence, Italy, located in the Santo Spirito district. It was designed by architect Giuseppe Poggi and constructed in 1869 during the redevelopment of Oltrarno, the left (south) bank of the Arno River. This period of urban renewal, known as the Risanamento (Renovation), occurred when Florence was the capital of Italy.",C,0,3
+2,"What is the main purpose of the Viale dei Colli? 
+What is the main inspiration behind the design of the Viali di Circonvallazione? 
+What is the main feature of Piazzale Michelangelo?","
+The redevelopment included the construction of riverside walkways (lungarni) on the Arno's banks. On the right bank, the medieval city walls were replaced with the Viali di Circonvallazione, six-lane tree-lined boulevards inspired by French design. On the left bank, the Viale dei Colli was created, an 8-kilometer-long, tree-lined avenue winding up the hill of San Miniato and culminating at Piazzale Michelangelo. The square was built as a broad terrace offering a panoramic view of the city.",O,1,3
+3,What is the name of the chapel that houses the original of the four allegories of the times of day?,"
+Piazzale Michelangelo is dedicated to the Renaissance sculptor Michelangelo and features bronze copies of some of his famous works, including the David and the four allegories of the times of day from the Medici Chapel of San Lorenzo.",O,2,3
+4,Who designed the loggia on the terrace?,"
+The terrace is dominated by a neoclassical-style loggia designed by Poggi. Originally intended as a museum to house works by Michelangelo, the loggia includes an epigraph in capital letters inscribed in the wall of the balcony, referencing the artist's legacy.",O,3,3
+5,What is the name of the bridge that is visible from Piazzale Michelangelo?,"
+The view from Piazzale Michelangelo captures the heart of Florence, extending from Forte Belvedere to Santa Croce. It showcases the Arno River walkways, bridges such as the Ponte Vecchio, and landmarks including the Duomo, Palazzo Vecchio, the Bargello, and the octagonal bell tower of the Badia Fiorentina.",O,4,3
+6,What is the purpose of the text?,"
+",O,5,3

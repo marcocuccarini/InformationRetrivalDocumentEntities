@@ -1,0 +1,30 @@
+,question,answer,question_index,answer_index,document_index
+0,What is the name of the river that the Ponte Vecchio is located over? ,"The Ponte Vecchio is a medieval stone closed-spandrel segmental arch bridge over the Arno, in Florence, Italy. It is the only bridge in Florence spared from destruction during World War II and is noted for the shops built along it, a practice that was once common on bridges. Initially, these shops were occupied by butchers, tanners, and farmers, but today they are home to jewellers, art dealers, and souvenir sellers.",O,0,1
+1,"
+What type of businesses were initially occupying the shops on the Ponte Vecchio?","The Ponte Vecchio is a medieval stone closed-spandrel segmental arch bridge over the Arno, in Florence, Italy. It is the only bridge in Florence spared from destruction during World War II and is noted for the shops built along it, a practice that was once common on bridges. Initially, these shops were occupied by butchers, tanners, and farmers, but today they are home to jewellers, art dealers, and souvenir sellers.",C,0,1
+2,What are the names of the two neighboring bridges of Ponte Vecchio? ,"
+The Ponte Vecchio's two neighboring bridges are the Ponte Santa Trinita and the Ponte alle Grazie. The bridge connects Via Por Santa Maria (Lungarno degli Acciaiuoli and Lungarno degli Archibusieri) to Via de' Guicciardini (Borgo San Jacopo and Via de' Bardi). Its name, meaning ""Old Bridge,"" was given when the Ponte alla Carraia was built and named Ponte Nuovo (""New Bridge"") in contrast.",O,1,1
+3,"
+What is the meaning of the name ""Ponte Vecchio""?","
+The Ponte Vecchio's two neighboring bridges are the Ponte Santa Trinita and the Ponte alle Grazie. The bridge connects Via Por Santa Maria (Lungarno degli Acciaiuoli and Lungarno degli Archibusieri) to Via de' Guicciardini (Borgo San Jacopo and Via de' Bardi). Its name, meaning ""Old Bridge,"" was given when the Ponte alla Carraia was built and named Ponte Nuovo (""New Bridge"") in contrast.",C,1,1
+4,When was the Via Cassia Nova commissioned by Emperor Hadrian?,"
+Historically, the Ponte Vecchio played a central role in the city's road system, connecting Roman Florentia with the Via Cassia Nova, commissioned by Emperor Hadrian in 123 AD. Today, although closed to vehicular traffic, it remains a vital pedestrian link between major tourist areas, connecting Piazza del Duomo and Piazza della Signoria on one side with Palazzo Pitti and Santo Spirito in the Oltrarno on the other.",O,2,1
+5,When was the bridge listed as a national artistic heritage site? ,"
+The bridge has been listed as a national artistic heritage site since 1901 by the General Directorate of Antiquities and Fine Arts. Historians credit Taddeo Gaddi, a pupil of Giotto, with its reconstruction. Gaddi's design addressed structural issues caused by floods, improving water flow and ensuring the bridge's longevity.",O,3,1
+6,"
+Who is credited with the reconstruction of the bridge?","
+The bridge has been listed as a national artistic heritage site since 1901 by the General Directorate of Antiquities and Fine Arts. Historians credit Taddeo Gaddi, a pupil of Giotto, with its reconstruction. Gaddi's design addressed structural issues caused by floods, improving water flow and ensuring the bridge's longevity.",C,3,1
+7,When were the workshops on the bridge first sold to private individuals? ,"
+In 1495, the municipality sold all the workshops on the bridge to private individuals. At that time, there were four workshops, and the new owners began modifying them by expanding, dividing, and advancing on the bridge stacks without considering symmetry or design unity. After severe floods in 1547 and 1557, the shop owners rebuilt their structures, further altering the bridge's symmetry.",O,4,1
+8," 
+How did the floods in 1547 and 1557 affect the bridge's structure?","
+In 1495, the municipality sold all the workshops on the bridge to private individuals. At that time, there were four workshops, and the new owners began modifying them by expanding, dividing, and advancing on the bridge stacks without considering symmetry or design unity. After severe floods in 1547 and 1557, the shop owners rebuilt their structures, further altering the bridge's symmetry.",C,4,1
+9,Who commissioned Giorgio Vasari to redesign the bridge's architecture in 1565? ,"
+In 1565, the Commune commissioned Giorgio Vasari to redesign the bridge's architecture. This project led to the creation of the Vasari Corridor, which transformed the bridge's appearance. The corridor introduced two different block heights, with the upstream side enclosed by a three-arched portico to support Vasari's aerial passage, while the central square on the other side remained open.",O,5,1
+10,"
+What architectural element was introduced by Vasari's project to support his aerial passage on the upstream side of the bridge?","
+In 1565, the Commune commissioned Giorgio Vasari to redesign the bridge's architecture. This project led to the creation of the Vasari Corridor, which transformed the bridge's appearance. The corridor introduced two different block heights, with the upstream side enclosed by a three-arched portico to support Vasari's aerial passage, while the central square on the other side remained open.",C,5,1
+11,What are the names of the three historic districts that Ponte Vecchio is located at the intersection of?,"
+Ponte Vecchio is located at the intersection of the historic districts of Santa Croce, Santo Spirito, and Santa Maria Novella. The stores located above the bridge share the same address.",O,6,1
+12,What is the purpose of the text?,"
+",O,7,1

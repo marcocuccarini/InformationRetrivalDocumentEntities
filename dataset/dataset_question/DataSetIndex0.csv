@@ -1,0 +1,27 @@
+,question,answer,question_index,answer_index,document_index
+0,Where is the Palazzo Pitti located in relation to the River Arno?,"The Palazzo Pitti, in English sometimes called the Pitti Palace, is a vast, mainly Renaissance, palace in Florence, Italy. It is situated on the south side of the River Arno in Pitti Square, a short distance from the Ponte Vecchio.",O,0,0
+1,Who built the original design of the palazzo? ,"
+The core of the present palazzo dates from 1458 and was originally the town residence of Luca Pitti, an ambitious Florentine banker. Although inhabited for about four centuries by three dynasties—the Medici, Habsburg-Lorraine, and Savoy—the palace still bears the name of its first owner. In 1473, Luca Pitti died, leaving Filippo Brunelleschi's design unfinished; at the time, the building featured only three wide doors and a double row of seven windows on the façade.",O,1,0
+2,"
+What was Luca Pitti's profession when he built the palazzo?","
+The core of the present palazzo dates from 1458 and was originally the town residence of Luca Pitti, an ambitious Florentine banker. Although inhabited for about four centuries by three dynasties—the Medici, Habsburg-Lorraine, and Savoy—the palace still bears the name of its first owner. In 1473, Luca Pitti died, leaving Filippo Brunelleschi's design unfinished; at the time, the building featured only three wide doors and a double row of seven windows on the façade.",C,1,0
+3,Who purchased the palace in 1549 ,"
+In 1549, the palace, abandoned after Luca Pitti's death, was purchased by Eleonora di Toledo, wife of Cosimo I de' Medici, as a residence befitting the grandeur of the nascent Grand Duchy of Tuscany. Bartolomeo Ammannati, the Grand Duke's favorite architect, expanded the façade and the rear section of the palace. Additionally, the magnificent Boboli Gardens were created behind the palace, adding to its splendor.",O,2,0
+4," 
+Who was the Grand Duke's favorite architect that expanded the façade and the rear section of the palace?","
+In 1549, the palace, abandoned after Luca Pitti's death, was purchased by Eleonora di Toledo, wife of Cosimo I de' Medici, as a residence befitting the grandeur of the nascent Grand Duchy of Tuscany. Bartolomeo Ammannati, the Grand Duke's favorite architect, expanded the façade and the rear section of the palace. Additionally, the magnificent Boboli Gardens were created behind the palace, adding to its splendor.",C,2,0
+5,Who used the Palazzo Pitti as a power base in the late 18th century? ,"
+In the late 18th century, the Palazzo Pitti was used as a power base by Napoleon. It later served briefly as the principal royal palace of the newly united Italy. In 1919, King Victor Emmanuel III donated the palace and its contents to the Italian people.",O,3,0
+6," 
+In what year did King Victor Emmanuel III donate the palace and its contents to the Italian people?","
+In the late 18th century, the Palazzo Pitti was used as a power base by Napoleon. It later served briefly as the principal royal palace of the newly united Italy. In 1919, King Victor Emmanuel III donated the palace and its contents to the Italian people.",C,3,0
+7,"What architectural style is often associated with the exterior of the Palazzo Pitti? 
+How many square meters does the principal Palazzo Pitti block span? 
+What type of interior embellishments were added to the Palazzo Pitti by artists from various regions?","
+The principal Palazzo Pitti block, often called the corps de logis, spans 32,000 square meters. The palace features a blend of Renaissance, late Mannerist, and Baroque influences, with the exterior characterized by colossal decorations, “Florentine arches,” and ashlar blocks symbolizing wealth. Over time, the interior was embellished with frescoes, stucco work, and intricate details by artists from various regions. Later architectural interventions included Rococo and Neoclassical elements, enhancing its spatial grandeur.",O,4,0
+8,What dynasties succeeded the Medici in amassing treasures at the Palazzo Pitti?,"
+The palace became a great treasure house as generations of the Medici and subsequent dynasties amassed paintings, plates, jewelry, and luxurious possessions. Today, the Palazzo Pitti is the largest museum complex in Florence, divided into several principal galleries or museums.",O,5,0
+9,What are the days when the Palazzo Pitti is closed?,"
+The Palazzo Pitti is open Tuesday through Sunday from 8:15 a.m. to 6:30 p.m. It is closed on Mondays, January 1, and December 25. Tickets cost 10 euros, with free admission for minors, people with disabilities, university students, and journalists.",O,6,0
+10,What is the purpose of the text?,"
+",O,7,0
