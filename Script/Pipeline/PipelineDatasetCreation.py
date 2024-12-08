@@ -14,7 +14,7 @@ class Pipeline_Dataset_Creation:
   def document_division(self):
 
 
-    self.periods=self.model_doc.document_splitting(".")
+    self.periods=self.model_doc.document_splitting("£")
 
 
   def df_encode(self,list_question,list_answer,list_answer_index,list_question_index):
