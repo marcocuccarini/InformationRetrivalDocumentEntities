@@ -12,8 +12,6 @@ Original file is located at
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import math
 import torch
-import wikipedia
-from GoogleNews import GoogleNews
 import IPython
 
 # Load model and tokenizer
