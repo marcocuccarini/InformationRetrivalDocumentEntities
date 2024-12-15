@@ -1,0 +1,20 @@
+,question,answer,question_index,answer_index,document_index
+0,Who designed the neoclassical-style loggia at Piazzale Michelangelo? ,"Piazzale Michelangelo (Michelangelo Square) is a square with a panoramic view of Florence, Italy, located in the Santo Spirito district. It was designed by architect Giuseppe Poggi and constructed in 1869 during the redevelopment of Oltrarno, the left (south) bank of the Arno River. This period of urban renewal, known as the Risanamento (Renovation), occurred when Florence was the capital of Italy.",O,0,3
+1,"
+What is the main purpose of the Viale dei Colli in the context of the redevelopment of Oltrarno?","Piazzale Michelangelo (Michelangelo Square) is a square with a panoramic view of Florence, Italy, located in the Santo Spirito district. It was designed by architect Giuseppe Poggi and constructed in 1869 during the redevelopment of Oltrarno, the left (south) bank of the Arno River. This period of urban renewal, known as the Risanamento (Renovation), occurred when Florence was the capital of Italy.",C,0,3
+2,What is the name of the architect who designed Piazzale Michelangelo? ,"
+The redevelopment included the construction of riverside walkways (lungarni) on the Arno's banks. On the right bank, the medieval city walls were replaced with the Viali di Circonvallazione, six-lane tree-lined boulevards inspired by French design. On the left bank, the Viale dei Colli was created, an 8-kilometer-long, tree-lined avenue winding up the hill of San Miniato and culminating at Piazzale Michelangelo. The square was built as a broad terrace offering a panoramic view of the city.",O,1,3
+3,"
+What is the name of the famous Renaissance sculptor that Piazzale Michelangelo is dedicated to? ","
+The redevelopment included the construction of riverside walkways (lungarni) on the Arno's banks. On the right bank, the medieval city walls were replaced with the Viali di Circonvallazione, six-lane tree-lined boulevards inspired by French design. On the left bank, the Viale dei Colli was created, an 8-kilometer-long, tree-lined avenue winding up the hill of San Miniato and culminating at Piazzale Michelangelo. The square was built as a broad terrace offering a panoramic view of the city.",C,1,3
+4,"
+What is the name of the loggia that dominates the terrace of Piazzale Michelangelo?","
+The redevelopment included the construction of riverside walkways (lungarni) on the Arno's banks. On the right bank, the medieval city walls were replaced with the Viali di Circonvallazione, six-lane tree-lined boulevards inspired by French design. On the left bank, the Viale dei Colli was created, an 8-kilometer-long, tree-lined avenue winding up the hill of San Miniato and culminating at Piazzale Michelangelo. The square was built as a broad terrace offering a panoramic view of the city.",C,1,3
+5,What is the primary purpose of the neoclassical-style loggia located at Piazzale Michelangelo?,"
+Piazzale Michelangelo is dedicated to the Renaissance sculptor Michelangelo and features bronze copies of some of his famous works, including the David and the four allegories of the times of day from the Medici Chapel of San Lorenzo.",O,2,3
+6,Who originally intended the loggia at Piazzale Michelangelo to house works by Michelangelo?,"
+The terrace is dominated by a neoclassical-style loggia designed by Poggi. Originally intended as a museum to house works by Michelangelo, the loggia includes an epigraph in capital letters inscribed in the wall of the balcony, referencing the artist's legacy.",O,3,3
+7,What architectural style is featured in the neoclassical-style loggia at Piazzale Michelangelo?,"
+The view from Piazzale Michelangelo captures the heart of Florence, extending from Forte Belvedere to Santa Croce. It showcases the Arno River walkways, bridges such as the Ponte Vecchio, and landmarks including the Duomo, Palazzo Vecchio, the Bargello, and the octagonal bell tower of the Badia Fiorentina.",O,4,3
+8,What architectural style is the neoclassical-style loggia at Piazzale Michelangelo designed in?,"
+",O,5,3
