@@ -52,7 +52,7 @@ class Pipeline_Dataset_Creation:
         #Avrò un unica domanda, nel ramo falso un multidomanda per ogni risposta
 
         if n_quest==1:
-          prompt="Can you produce one question about this text without write anything more and with out any introduction? "+self.periods[i]
+          prompt="Can you produce one question about this text considering the context without write anything more and with out any introduction? Text:"+self.periods[i]+" Context:"+self.periods
           output_model=self.model_llama.print_prompt(prompt)
           print(output_model)
 
@@ -67,7 +67,7 @@ class Pipeline_Dataset_Creation:
 
         else:
 
-          prompt="Can you produce "+str(n_quest)+" differents questions about this text without write anything more separeted by the sign '£' with out any introduction? "+self.periods[i]
+          prompt="Can you produce "+str(n_quest)+" differents questions about this text considering the context without write anything more separeted by the sign '£' with out any introduction? Text:"+self.periods[i]+" Context:"+self.periods
           output_model=self.model_llama.print_prompt(prompt)
           print(output_model)
 
