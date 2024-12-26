@@ -33,7 +33,7 @@ def evaluation_function(possible_candidates_baseline_order,answer):
   for j in [1,3,5,10,15,20]:
     correct=0
     for i in range(len(possible_candidates_baseline_order)):
-      if df_tot['answer'][i] in possible_candidates_baseline_order[i][:j]:
+      if answer[i] in possible_candidates_baseline_order[i][:j]:
         correct+=1
     print("Top "+str(j),correct/len(possible_candidates_baseline_order))
   print("----------------")
