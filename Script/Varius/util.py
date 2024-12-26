@@ -8,6 +8,43 @@ websites = "[.](com|net|org|io|gov|edu|me)"
 digits = "([0-9])"
 multiple_dots = r'\.{2,}'
 
+
+def evaluation_function(possible_candidates):
+  for j in [1,3,5,10,15,20]:
+    correct=0
+    for i in range(len(possible_candidates)):
+      if df_tot['answer'][i] in possible_candidates[i][:j]:
+        correct+=1
+    print("Top "+str(j),correct/len(possible_candidates))
+  print("----------------")
+
+
+
+def save_network_html(list_enti, list_kb_flat, filename="network.html"):
+    # create network
+    net = Network(directed=True, width="auto", height="700px", bgcolor="#eeeeee")
+
+    # nodes
+    color_entity = "#00FF00"
+    for e in list_enti:
+        net.add_node(e, shape="circle", color=color_entity)
+
+    # edges
+    for r in list_kb_flat:
+        net.add_edge(r[0], r[2],
+                    title=r[1], label=r[1])
+
+    # save network
+    net.repulsion(
+        node_distance=200,
+        central_gravity=0.2,
+        spring_length=200,
+        spring_strength=0.05,
+        damping=0.09
+    )
+    net.set_edge_smooth('dynamic')
+    net.show(filename)
+
 def split_into_sentences(text: str) -> list[str]:
     """
     Split the text into sentences.
