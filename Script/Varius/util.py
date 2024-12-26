@@ -98,12 +98,17 @@ def extract_entities(question,list_KB_clean,possible_candidates_baseline_order):
   return question_entities, answer_entities
 
 
-def create_similarity_matrix(question_enc, answer_enc):
+def create_similarity_matrix(question_enc, answer_enc, base=True):
   scores_similarity=[]
   for i in range(len(question_enc)):
     score_similarity=[]
     for j in range(len(answer_enc)):
-      score_similarity.append(np.dot(question_enc[i], answer_enc[j]))
+      if base:
+        score_similarity.append(np.dot(question_enc[i], answer_enc[j]))
+      else:
+        score_similarity.append(np.dot(question_enc[i], answer_enc[i][j]))
+
+
     scores_similarity.append(score_similarity)
   return scores_similarity
 
