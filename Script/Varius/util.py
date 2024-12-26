@@ -9,7 +9,7 @@ websites = "[.](com|net|org|io|gov|edu|me)"
 digits = "([0-9])"
 multiple_dots = r'\.{2,}'
 
-def extract_text_entities(possible_candidates_baseline, model_BERT, question_entities, answer_entities, df_tot):
+def extract_text_entities(possible_candidates_baseline, model_BERT, question_entities, answer_entities, df_tot, answer_enc):
 
   possible_candidates=[]
   possible_candidates_enc=[]
