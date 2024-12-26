@@ -13,7 +13,7 @@ def evaluation_function(possible_candidates, answer):
   for j in [1,3,5,10,15,20]:
     correct=0
     for i in range(len(possible_candidates)):
-      if answer[i] in answer[:j]:
+      if answer[i] in possible_candidates[i][:j]:
         correct+=1
     print("Top "+str(j),correct/len(possible_candidates))
   print("----------------")
