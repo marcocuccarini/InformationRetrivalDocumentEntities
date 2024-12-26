@@ -9,6 +9,20 @@ websites = "[.](com|net|org|io|gov|edu|me)"
 digits = "([0-9])"
 multiple_dots = r'\.{2,}'
 
+
+def extract_KG_text(df_tot, answer_entities):
+  KG_text=[]
+  for i in range(len(answer_entities)):
+    for j in range(len(answer_entities[i])):
+      for z in range(len(df_tot['answer'])):
+
+        if (answer_entities[i][j] in df_tot['answer'][z] and z!=i and not([df_tot['answer'][i],"rel",df_tot['answer'][z]] in KG_text) and not([df_tot['answer'][z],"rel",df_tot['answer'][i]] in KG_text)):
+
+          KG_text.append([df_tot['answer'][i],"rel",df_tot['answer'][z]])
+
+
+  return KG_text
+
 def extract_text_entities(possible_candidates_baseline, model_BERT, question_entities, answer_entities, df_tot, answer_enc):
 
   possible_candidates=[]
