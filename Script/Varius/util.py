@@ -9,6 +9,43 @@ websites = "[.](com|net|org|io|gov|edu|me)"
 digits = "([0-9])"
 multiple_dots = r'\.{2,}'
 
+def extract_text_entities(possible_candidates_baseline, model_BERT, question_entities, answer_entities, df_tot):
+
+  possible_candidates=[]
+  possible_candidates_enc=[]
+
+
+  kg_text=[]
+
+  for i in range(len(question_entities)):
+
+    list_candiates=[]
+    list_candiates_enc=[]
+
+    list_candiates.append(possible_candidates_baseline[i][0])
+    list_candiates_enc.append(model_BERT.text_emebedding(possible_candidates_baseline[i][0]))
+
+    for j in range(len(question_entities[i])):
+
+      for r in range(len(answer_entities)):
+
+        for k in range(len(answer_entities[r])):
+
+            if (question_entities[i][j] == answer_entities[r][k] and not (df_tot['answer'][r] in list_candiates)):
+
+              list_candiates.append(df_tot['answer'][r])
+              list_candiates_enc.append(answer_enc[r])
+
+    if(len(list_candiates)<1):
+
+      list_candiates=df_tot['answer'].tolist()
+      list_candiates_enc=answer_enc
+
+    possible_candidates.append(list_candiates)
+    possible_candidates_enc.append(list_candiates_enc)
+
+  return possible_candidates, possible_candidates_enc
+
 
 def extract_entities(question,list_KB_clean,possible_candidates_baseline_order):
   question_entities=[]
