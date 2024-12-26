@@ -9,11 +9,11 @@ digits = "([0-9])"
 multiple_dots = r'\.{2,}'
 
 
-def evaluation_function(possible_candidates):
+def evaluation_function(possible_candidates, answer):
   for j in [1,3,5,10,15,20]:
     correct=0
     for i in range(len(possible_candidates)):
-      if df_tot['answer'][i] in possible_candidates[i][:j]:
+      if answer[i] in possible_candidates[i][:j]:
         correct+=1
     print("Top "+str(j),correct/len(possible_candidates))
   print("----------------")
