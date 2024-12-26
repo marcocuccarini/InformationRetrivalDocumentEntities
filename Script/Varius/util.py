@@ -10,6 +10,43 @@ digits = "([0-9])"
 multiple_dots = r'\.{2,}'
 
 
+def extract_entities(question,list_KB_clean,possible_candidates_baseline_order):
+  question_entities=[]
+  answer_entities=[]
+
+  for i in range(len(question)):
+
+    question_entity=[]
+    answer_entity=[]
+
+    for j in range(len(list_KB_clean)):
+
+      for z in range(len(list_KB_clean[j])):
+
+        if list_KB_clean[j][z][0] in possible_candidates_baseline_order[i][0]:
+
+          answer_entity.append(list_KB_clean[j][z][2])
+
+        if list_KB_clean[j][z][2] in possible_candidates_baseline_order[i][0]:
+
+          answer_entity.append(list_KB_clean[j][z][0])
+
+        if list_KB_clean[j][z][0] in question[i]:
+
+          question_entity.append(list_KB_clean[j][z][2])
+
+        if list_KB_clean[j][z][2] in question[i]:
+
+          question_entity.append(list_KB_clean[j][z][0])
+
+
+    question_entities.append(list(set(question_entity)))
+    answer_entities.append(list(set(answer_entity)))
+  
+
+  return question_entities, answer_entities
+
+
 def create_similarity_matrix(question_enc, answer_enc):
   scores_similarity=[]
   for i in range(len(question_enc)):
