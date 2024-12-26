@@ -9,13 +9,32 @@ digits = "([0-9])"
 multiple_dots = r'\.{2,}'
 
 
-def evaluation_function(possible_candidates, answer):
+def create_similarity_matrix(question_enc, answer_enc):
+  scores_similarity=[]
+  for i in range(len(question_enc)):
+    score_similarity=[]
+    for j in range(len(answer_enc)):
+      score_similarity.append(np.dot(question_enc[i], answer_enc[j]))
+    scores_similarity.append(score_similarity)
+  return scores_similarity
+
+def order_candidate(scores_similarity, answer):
+  list_scores=[]
+  possible_candidates_baseline_order=[]
+  for i in range(len(scores_similarity)):
+    list_score, list_candidate_baseline = zip(*sorted(zip(scores_similarity[i],answer), reverse=True))
+    list_scores.append(list_score)
+    possible_candidates_baseline_order.append(list(dict.fromkeys(list_candidate_baseline)))
+
+  return list_scores, possible_candidates_baseline_order
+
+def evaluation_function(possible_candidates_baseline_order,answer):
   for j in [1,3,5,10,15,20]:
     correct=0
-    for i in range(len(possible_candidates)):
-      if answer[i] in possible_candidates[i][:j]:
+    for i in range(len(possible_candidates_baseline_order)):
+      if df_tot['answer'][i] in possible_candidates_baseline_order[i][:j]:
         correct+=1
-    print("Top "+str(j),correct/len(possible_candidates))
+    print("Top "+str(j),correct/len(possible_candidates_baseline_order))
   print("----------------")
 
 
