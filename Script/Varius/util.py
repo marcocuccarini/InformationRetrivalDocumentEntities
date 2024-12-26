@@ -117,10 +117,7 @@ def create_similarity_matrix(question_enc, answer_enc):
   for i in range(len(question_enc)):
     score_similarity=[]
     for j in range(len(answer_enc)):
-      if base:
-        score_similarity.append(np.dot(question_enc[i], answer_enc[j]))
-      else:
-        score_similarity.append(np.dot(question_enc[i], answer_enc[i][j]))
+      score_similarity.append(np.dot(question_enc[i], answer_enc[j]))
 
 
     scores_similarity.append(score_similarity)
