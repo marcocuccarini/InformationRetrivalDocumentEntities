@@ -1,0 +1,53 @@
+,question,answer,question_index,answer_index,document_index
+0,What is the name of the church's architect who designed the Cappella del Cardinale del Portogallo?,"San Miniato al Monte is a basilica in Florence, central Italy, standing atop one of the highest points in the city. ",O,0,15
+1,What is the significance of the crypt in the San Miniato al Monte church?, It has been described as one of the finest Romanesque structures in Tuscany and one of the most scenic churches in Italy. ,O,1,15
+2,What is the name of the artist who created the frescoes in the vaults of the crypt?," There is an adjoining Olivetan monastery, seen to the right of the basilica when ascending the stairs. ",O,2,15
+3,Was the church of San Miniato al Monte originally built to commemorate the site where St. Minias was beheaded?,"
+St. Miniato or Minas was an Armenian prince serving in the Roman army under Emperor Decius. ",O,3,15
+4,Was St Minias able to walk up the hill of Mons Fiorentinus to his hermitage after being beheaded?, He was denounced as a Christian after becoming a hermit and was brought before the Emperor who was camped outside the gates of Florence. ,O,4,15
+5,Who was the unknown artist that created the mosaic of Christ between the Virgin and St Minias on the apse's vaulted ceiling and also depicted the same subject on the façade of the church?, The Emperor ordered him to be thrown to beasts in the Amphitheatre where a panther was called upon him but refused to devour him. ,O,5,15
+6,What is the alleged miracle attributed to St. Miniato after his beheading?," Beheaded in the presence of the Emperor, he is alleged to have picked up his head, crossed the Arno and walked up the hill of Mons Fiorentinus to his hermitage. ",O,6,15
+7,What is the name of the artist who created the frescoes in the vaults of the crypt?," A shrine was later erected at this spot, and there was a chapel there by the 8th century. ",O,7,15
+8,Who was the artist responsible for the terracotta decoration of the vault in the Cappella del Crocefisso?,"
+Construction of the present church was begun in 1013 by Bishop Alibrando and it was endowed by the Emperor Henry II. ",O,8,15
+9,What was the original purpose of the chapel that was later used to house the miraculous crucifix now in Santa Trìnita?," The adjoining monastery began as a Benedictine community, then passed to the Cluniacs and then in 1373 to the Olivetans, who still run it. ",O,9,15
+10,What is the name of the artist who painted the frescoes in the vaults of the crypt?," The monks make famous liqueurs, honey, and herbal teas, which they sell from a shop next to the church. ",O,10,15
+11,What is the origin of the bones supposedly contained in the high altar of the church?,"
+The interior exhibits the early feature of a choir raised on a platform above the large crypt. ",O,11,15
+12,When was the construction of the present church of San Miniato al Monte begun?, It has changed little since it was first built. ,O,12,15
+13,What is the origin of the patterned pavement inside the basilica?, The patterned pavement dates from 1207. ,O,13,15
+14,"Who designed the Cappella del Cardinale del Portogallo, a funerary monument in the church?"," The center of the nave is dominated by the beautiful freestanding Cappella del Crocefisso (Chapel of the Crucifix), designed by Michelozzo in 1448. ",O,14,15
+15,What is the origin of the miraculous crucifix now in Santa Trìnita that was originally housed in San Miniato al Monte?, It originally housed the miraculous crucifix now in Santa Trìnita and is decorated with panels long thought to be painted by Agnolo Gaddi. ,O,15,15
+16,What is the name of the church's architect who designed the Cappella del Cardinale del Portogallo?, The terracotta decoration of the vault is by Luca della Robbia. ,O,16,15
+17,What is the name of the emperor who ordered the execution of St Minias?,"
+The crypt is the oldest part of the church and the high altar supposedly contains the bones of St Minias himself (although there is evidence that these were removed to Metz before the church was even built). ",O,17,15
+18,Who painted the frescoes found in the vaults of San Miniato al Monte?, In the vaults are frescoes by Taddeo Gaddi. ,O,18,15
+19,What style of decoration is attributed to Luca della Robbia in the basilica of San Miniato al Monte?, The raised choir and presbytery contain a magnificent Romanesque pulpit and screen made in 1207. ,O,19,15
+20,What is the date of the mosaic of Christ between the Virgin and St Minias on the vaulted ceiling of the apse?, The apse is dominated by a great mosaic of Christ between the Virgin and St Minias on its vaulted ceiling dating from 1297. ,O,20,15
+21,What is the name of the artist who is believed to have created the frescoes in the vaults of the church's crypt?, The same subject is depicted on the façade of the church and is probably by the same unknown artist. ,O,21,15
+22,Who painted the panels in the Cappella del Crocefisso?, The crucifix above the high altar is attributed to Luca della Robbia. ,O,22,15
+23,What is the significance of the frescoes in the vaults of the crypt in San Miniato al Monte?,"
+The sacristy is decorated with a great fresco cycle on the Life of St Benedict by Spinello Aretino (1387). ",O,23,15
+24,"What is the name of the basilica in Florence, central Italy, that is described as one of the finest Romanesque structures in Tuscany and one of the most scenic churches in Italy?"," The Cappella del Cardinale del Portogallo to the left of the nave, ""one of the most magnificent funerary monuments of the Italian Renaissance,"" was built in 1473 as a memorial to Cardinal James of Lusitania, who died in Florence, to which he was Portuguese ambassador, in 1459. ",O,24,15
+25,Is the Cappella del Cardinale del Portogallo the only tomb in the church?, It is the only tomb in the church. ,O,25,15
+26,Who designed the chapel in San Miniato al Monte?,"
+The chapel is a collaboration of outstanding artists of Florence: it was designed by Brunelleschi's associate, Antonio Manetti, and finished after his death by Antonio Rossellino. ",O,26,15
+27,"Who designed the Cappella del Cardinale del Portogallo, a funerary monument in the basilica?", The tomb was made by Antonio and Bernardo Rossellino. ,O,27,15
+28,Who is the artist behind the terracotta decoration of the vault in the Cappella del Crocefisso?," The chapel decoration is by Alesso Baldovinetti, Antonio and Piero del Pollaiuolo, and Luca della Robbia. ",O,28,15
+29,Who was the architect behind the design of the Cappella del Cardinale del Portogallo?,"
+The geometrically patterned marble façade was probably begun in about 1090, although the upper parts date from the 12th century or later, financed by the Florentine Arte di Calimala (cloth merchants’ guild), who were responsible for the church's upkeep from 1288. ",O,29,15
+30,What is the significance of the eagle that crowns the façade of San Miniato al Monte?, The eagle which crowns the façade was their symbol. ,O,30,15
+31,"Was the church's campanile rebuilt after collapsing in 1499, and if so, was it completed?","
+The campanile collapsed in 1499 and was replaced in 1523, although it was never finished. ",O,31,15
+32,"Was the church of San Miniato al Monte used as a memorial for Cardinal James of Lusitania, who died in 1459?"," During the siege of Florence in 1530, it was used as an artillery post by the defenders, and Michelangelo had it wrapped in mattresses to protect it from enemy fire. ",O,32,15
+33,When was the cloister adjacent to the church planned?,"
+Adjacent to the church is the fine cloister, planned as early as 1426 and built from 1443 to the mid-1450s. ",O,33,15
+34,Who financed the construction of the campanile of San Miniato al Monte?, It was also designed by Bernardo and Antonio Rossellino and financed by the Arte della Mercantia of Florence. ,O,34,15
+35,"What was the purpose of the fortified bishop's palace, built in 1295, after its original use?"," The fortified bishop's palace, built in 1295, was later used as a barracks and a hospital. ",O,35,15
+36,Who originally built the defensive walls surrounding the San Miniato al Monte complex?,"
+The whole complex is surrounded by defensive walls, originally built hastily by Michelangelo during the siege and in 1553 expanded into a true fortress (fortezza) by Cosimo I de' Medici. ",O,36,15
+37,What is the name of the artist who is credited with the terracotta decoration of the vault in the Cappella del Crocefisso?," The walls now enclose a large ornate monumental cemetery, the Porte Sante, laid out in 1854. ",O,37,15
+38,What is the name of the Armenian prince who was beheaded in the presence of Emperor Decius and is alleged to have picked up his head and walked up the hill of Mons Fiorentinus?,"
+Buried there are Carlo Collodi, creator of Pinocchio; politician Giovanni Spadolini; painter Pietro Annigoni; poet and author Luigi Ugolini; film producer Mario Cecchi Gori; sculptor Libero Andreotti; fine artist Maria Luisa Ugolini Bonta; soprano Marietta Piccolomini; writer Giovanni Papini; experimental physicist Bruno Benedetto Rossi; and film director and opera producer Franco Zeffirelli. ",O,38,15
+39,"What is the name of the artist who designed the Cappella del Cardinale del Portogallo, a funerary monument in the basilica?","
+",O,39,15
